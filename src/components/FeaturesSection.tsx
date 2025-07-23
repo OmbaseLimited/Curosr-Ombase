@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { 
   CpuChipIcon, 
-  LightningBoltIcon, 
+  BoltIcon, 
   ShieldCheckIcon, 
   GlobeAltIcon,
   CogIcon,
@@ -19,7 +19,7 @@ const features = [
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    icon: LightningBoltIcon,
+    icon: BoltIcon,
     title: 'Lightning Fast Processing',
     description: 'Experience blazing-fast performance with optimized hardware configurations designed for speed, efficiency, and seamless multitasking across all applications.',
     gradient: 'from-yellow-500 to-orange-500',
